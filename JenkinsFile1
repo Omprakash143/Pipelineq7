@@ -14,7 +14,7 @@ pipeline{
                 gitCheckout(
                     
                     branch: "master",
-                    url: "https://https://github.com/bhanu-prakash3/SharedLibrary.git"
+                    url: "https://github.com/Omprakash143/Pipelineq7.git"
                 )
             }
         }
