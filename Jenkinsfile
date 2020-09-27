@@ -10,7 +10,7 @@ pipeline{
                
                 checkout([$class: 'GitSCM',
                     branches: [[name: '*/master']],
-                    doGenerateSubmoduleConfigurations: false,extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/bhanu-prakash3/PipeLine.git']]])
+                    doGenerateSubmoduleConfigurations: false,extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Omprakash143/Pipelineq7.git']]])
             }
         }
     
